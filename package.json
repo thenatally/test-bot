@@ -1,0 +1,28 @@
+{
+  "name": "test-bot",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "node --env-file=.env ./dist/index.js",
+    "watch": "tsc --watch --project tsconfig.json",
+    "serve": "nodemon --env-file=.env ./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "discord.js": "^14.19.3",
+    "nodemon": "^3.0.0",
+    "strife.js": "^4.3.2",
+    "typescript": "^5.8.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "express": "^5.1.0",
+    "lodash": "^4.17.21",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
