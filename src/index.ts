@@ -27,6 +27,6 @@ http.createServer((req, res) => {
     res.writeHead(404, { "Content-Type": "text/plain" });
     res.end("Not Found");
   }
-}).listen(3001, () => {
+}).listen(3000, () => {
   console.log("HTTP server listening on port 3000");
 });
