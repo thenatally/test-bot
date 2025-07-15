@@ -18,6 +18,7 @@ const testChannel = await client.channels.fetch("1370955405076987964");
 
 if (testChannel?.isSendable()) {
   await testChannel.send(`started bot on version ${pkg.version} with github release ${pkg.gitRelease} `);
+  //CHANGE SOMETHING 
 }
 
 // throw new Error("This is a test error");
